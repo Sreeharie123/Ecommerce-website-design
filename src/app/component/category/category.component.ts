@@ -12,7 +12,14 @@ export class CategoryComponent {
     { name: 'Clothes' },
     { name: 'Accesory' },
     { name: 'All products' },
-
+    { name: 'Clothes and Wears'},
+    { name: 'Home interiors'},
+    { name: 'Computer and tech'},
+    { name: 'Tools,equipments'},
+    { name: 'Spots and outdoors'},
+    // { name: 'Animal and pets'},
+    // { name: 'Machinery tools'},
+    // { name: 'More category'}
 ];
 }
 interface name {

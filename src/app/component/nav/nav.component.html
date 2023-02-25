@@ -1,8 +1,8 @@
 <div class="main-navbar w-screen h-fit flex flex-col gap-2 px-4">
   <div class="navbar w-full h-16 flex">
-    <div class="menu w-fit h-full flex items-center gap-2">
+    <div class="menu w-fit h-full flex items-center gap-2 md:relative">
       <span
-        class="material-symbols-outlined w-10 h-10 bg-slate-50 text-3xl flex justify-center items-center rounded-lg"
+        class="material-symbols-outlined w-10 h-10 bg-slate-50 text-3xl flex justify-center items-center rounded-lg md:hidden"
       >
         menu
       </span>
@@ -12,7 +12,10 @@
       </div>
     </div>
 
-    <span class="flex-1"></span>
+
+   <div class="md:flex-1"></div>
+
+    <span class="flex-1 md:hidden"></span>
 
     <div class="cart flex items-center gap-2">
       <span
@@ -28,7 +31,7 @@
       </span>
     </div>
   </div>
-  <div class="w-full relative">
+  <div class="w-full relative md:absolute md:w-1/2 md:top-2 md:left-96">
     <input type="text" class="w-full h-12 rounded-lg px-24 border border-primary" />
     <div class="w-fit h-12 flex items-center absolute top-0">
     <span class="material-symbols-outlined text-3xl rounded-full justify-center items-center text-primary">
