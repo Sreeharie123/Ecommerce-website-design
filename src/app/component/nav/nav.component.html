@@ -31,8 +31,19 @@
       </span>
     </div>
   </div>
-  <div class="w-full relative md:absolute md:w-1/2 md:top-2 md:left-96">
-    <input type="text" class="w-full h-12 rounded-lg px-24 border border-primary" />
+  <div class="w-full relative md:absolute md:w-1/2 md:top-2 md:right-[530px]">
+    <div class="md:flex overflow-hidden md:rounded-lg md:border md:border-primary">
+    <input type="text" class="w-full h-12 rounded-lg px-24 border border-primary md:border-none md:rounded-none" />
+
+    <select class="w-60 border px-3 max-md:hidden border-primary border-l-2 border-r-0 border-t-0 border-b-0">
+      <option value="English">All Category</option>
+      <option value="English">French</option>
+      <option value="English">German</option>
+      <option value="English">Spanish</option>
+      <option value="English">HIndi</option>
+    </select>
+    <button class="max-md:hidden w-60 bg-primary text-white">Search</button>
+  </div>
     <div class="w-fit h-12 flex items-center absolute top-0">
     <span class="material-symbols-outlined text-3xl rounded-full justify-center items-center text-primary">
       search
