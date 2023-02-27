@@ -14,6 +14,14 @@ export class DashbordComponent {
     { date: 56, hour: 'Sec' },
   ];
 
+  date1: name[] = [
+    { date: 13, hour: 'Hour' },
+    { date: 34, hour: 'Min' },
+    { date: 56, hour: 'Sec' },
+    { date: 20, hour: 'Sec' },
+
+  ];
+
   items: any = [];
   items2: any = [];
 
